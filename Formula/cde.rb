@@ -9,6 +9,6 @@ class Cde < Formula
   version "0.6-alpha.4"
 
   def install
-    bin.install "cde"
+    bin.install "cde-macos" => "cde"
   end
 end
