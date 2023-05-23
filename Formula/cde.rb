@@ -4,7 +4,7 @@ require_relative "lib/private_strategy"
 class Cde < Formula
   homepage "https://github.com/colossyan/cde"
   head "https://github.com/colossyan/cde.git"
-  version "v0.7-alpha.13"
+  version "v0.7-alpha.14"
 
   def install
     on_windows do
