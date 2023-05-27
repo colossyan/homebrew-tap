@@ -14,9 +14,9 @@ class Cde < Formula
   end
 
   def install
-    if OS.mac? do
+    if OS.mac?
       bin.install "cde-macos" => "cde"
-    elsif OS.linux? do
+    elsif OS.linux?
       bin.install "cde-linux" => "cde"
     end
   end
