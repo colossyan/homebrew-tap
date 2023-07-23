@@ -4,13 +4,13 @@ require_relative "lib/private_strategy"
 class Cde < Formula
   homepage "https://github.com/colossyan/cde"
   head "https://github.com/colossyan/cde.git"
-  version "v0.8-beta.1"
-  url "https://github.com/colossyan/cde/releases/download/v0.8-beta.1/cde-macos.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
-  sha256 "02071607582716f5fd61f412e5d167f5f279516a65bc54ffc07f5830ca7b53c4"
+  version "v0.8-beta.2"
+  url "https://github.com/colossyan/cde/releases/download/v0.8-beta.2/cde-macos.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
+  sha256 "21312ebc65bbcf0b622925995730abf078cb8330596afebb95288bf38e8e6c27"
 
   on_linux do
-    url url "https://github.com/colossyan/cde/releases/download/v0.8-beta.1/cde-linux.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
-    sha256 "ce77ede3215eff45ee94966ced085b372e01d65da2b5a31b362b8fdfd3cb92ac"
+    url url "https://github.com/colossyan/cde/releases/download/v0.8-beta.2/cde-linux.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
+    sha256 "cb52ca081fc95aa039ba93db81739b6573688762edc800e105039b2494fd1a4a"
   end
 
   def install
