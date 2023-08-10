@@ -4,7 +4,7 @@ require_relative "lib/private_strategy"
 class Cde < Formula
   homepage "https://github.com/colossyan/cde"
   head "https://github.com/colossyan/cde.git"
-  version "0.8-beta.22"
+  version "0.8-beta.22.0"
   url "https://github.com/colossyan/cde/releases/download/v0.8-beta.22/cde-macos.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
   sha256 "7213f4e5cc40de5f3174dba0afb93ced7f8a25820265c16b97923a4486bab32b"
 
